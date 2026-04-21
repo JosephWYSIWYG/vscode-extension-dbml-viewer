@@ -21,7 +21,7 @@ async function generateSvg(dbmlContent: string): Promise<string> {
             errorMessage = 'Error generating SVG: ' + error.message;
         }
         console.error(errorMessage);
-        vscode.window.showErrorMessage(errorMessage);
+        //vscode.window.showErrorMessage(errorMessage);
         return '';
     }
 }
